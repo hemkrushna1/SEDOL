@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31702.278
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SEDOL.Checker", "SEDOL.Checker\SEDOL.Checker.csproj", "{043CB35F-D092-42DB-9E94-F50629EF987E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SEDOL.Service", "SEDOL.Service\SEDOL.Service.csproj", "{0F1DD68A-C42E-4ED2-B0A0-F22EA6BFA538}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SEDOL.Service.Tests", "SEDOL.Service.Tests\SEDOL.Service.Tests.csproj", "{C384CCB3-193D-40C9-ADAC-1E23546C8C09}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{D905CD1B-C354-4EB7-8E70-AB451637DE5C}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+		README_prob_stmt.md = README_prob_stmt.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{043CB35F-D092-42DB-9E94-F50629EF987E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{043CB35F-D092-42DB-9E94-F50629EF987E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{043CB35F-D092-42DB-9E94-F50629EF987E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{043CB35F-D092-42DB-9E94-F50629EF987E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F1DD68A-C42E-4ED2-B0A0-F22EA6BFA538}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F1DD68A-C42E-4ED2-B0A0-F22EA6BFA538}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F1DD68A-C42E-4ED2-B0A0-F22EA6BFA538}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F1DD68A-C42E-4ED2-B0A0-F22EA6BFA538}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C384CCB3-193D-40C9-ADAC-1E23546C8C09}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C384CCB3-193D-40C9-ADAC-1E23546C8C09}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C384CCB3-193D-40C9-ADAC-1E23546C8C09}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C384CCB3-193D-40C9-ADAC-1E23546C8C09}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {068C897C-5250-42E7-B316-ECEEF6E3DED1}
+	EndGlobalSection
+EndGlobal
